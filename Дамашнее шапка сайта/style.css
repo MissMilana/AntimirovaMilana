@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+display: flex; 
+justify-content: space-around;
+align-items: center;
+background-color: rgb(251, 214, 233);
+}
+.nav_ul {
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.nav_ul li {
+    margin right: 2vw;
+    list-style-type: none;
+}
+.sign_block {
+    background-color: aquamarine;
+    text-align: center;
+    margin: 10vw 20vw;
+    padding: 5vw 3vw
+    horder-radius: 30px
+}
+.h1_for_sign {
+    margin-bottom: 30vh;
+}
+.password {
+    margin-bottom: 3vh;
+}
+input {
+    border: none;
+    outline: none;
+    width: 30vw;
+    padding: 15px;
+    border-radius: 5px;
+}
+.signUp, body {
+    background-color: bisque;
+}

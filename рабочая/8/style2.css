@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    min-height: 100vh;
+    background-color: rgb(225, 230, 235);
+}
+
+.chat {
+    padding: 4% 0 0 0;
+}
+
+.chat__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3% 0;
+
+}
+
+.chat__item:nth-child(2n) {
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.chat__user {
+    display: flex;
+    align-items: center;
+}
+
+.chat__user:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+.chat__item div {
+    flex: 1 1 33.333%;
+}
+
+.chat2 {
+    background-color: rgb(131, 218, 255);
+    padding: 1% 0.4%;
+    border-radius: 10px 10px 10px 0;
+}
+
+.chat1 {
+    background-color: rgb(255, 155, 228);
+    padding: 1% 0.4%;
+    border-radius: 10px 10px 0px 10px;
+}

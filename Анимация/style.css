@@ -1,0 +1,80 @@
+@keyframes minutes {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes second {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes has {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: auto
+}
+
+.main {
+    border-radius: 50%;
+    border: solid 2px rgb(3, 166, 155);
+    width: 100px;
+    height: 100px;
+    margin: 3em;
+    z-index: 1;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(3, 166, 155);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 42px;
+    top: 44px;
+    z-index: 2;
+}
+
+.minutes {
+    width: 2px;
+    height: 31px;
+    background-color: rgb(3, 166, 155);
+    position: absolute;
+    z-index: 2;
+    left: 48px;
+    top: 20px;
+    animation: minutes 1600s infinite steps(1600);
+}
+
+.seconds {
+    width: 1px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(3, 166, 155);
+    left: 49px;
+    top: 2px;
+    animation: second 60s infinite steps(60);
+    transform-origin: 0 45px;
+}
+
+.has {
+    width: 3px;
+    height: 28px;
+    background-color: rgb(3, 166, 155);
+    position: absolute;
+    z-index: 2;
+    left: 48px;
+    top: 50px;
+    animation: has 43200s infinite steps(43200);
+    transform-origin: 0 29px;
+}

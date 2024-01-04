@@ -1,0 +1,40 @@
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #main td, #main th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #main tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #main tr:hover {background-color: #ddd;}
+  
+  #main th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #7cf0ff;
+    color: rgb(0, 0, 0);
+  }
+  div {
+    overflow: scroll;
+    height: 1500px;
+  }
+
+  .section {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 10vh;
+    transform: translateX(-50%);
+    width: 500px;
+    max-height: 450px;
+    max-width: 50%;
+  }
+

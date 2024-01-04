@@ -1,0 +1,23 @@
+table, th, td{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+    min-width: 15px;
+}
+th{
+    text-align: left;
+    font-size: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+.orange{
+    background-color: rgb(255, 153, 1);
+}
+.ser{
+    background-color: rgb(97, 97, 97);
+    color: aliceblue;
+}
+.serii{
+    background-color: rgb(221, 221, 221);
+}

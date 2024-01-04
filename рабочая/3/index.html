@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Формы взаимодействия </h1>
+    <h2> Чем важен тег форм: </h2>
+    1) Переход без отправки:
+    <a href="2.html">
+        <button name="Clik"> go </button>
+    </a><br><br>
+    2) Переход с отправкой:
+    <form action="2.html" method="get"> 
+        <button name="Shaurma"> go </button>
+    </form><br><br>
+
+    <h2> Виды тегов imput: </h2>
+    <br><br>
+    1) Текст: <input type="text"> 
+    <br><br>
+    2) Номер: <input type="number">
+    <br><br>
+    3) Пароль: <input type="password">
+    <br><br>
+    4) Файл: <input type="file">
+    <br><br>
+    5) Картинка <input type="image" src="../практика/колода/81bmxe-C5oL._SL500_.jpg" width="50px">
+    <br><br>
+    6) Кнопка <input type="button" value="click">
+    <br><br>
+    7) Очистка 
+    <form> 
+        <input type="text"><input type="reset" value="reset">
+        </form>
+    <br><br>
+    8) Отправка 
+    <form action="2.html" method="get">
+        <input type="text" name="text">
+        <input type="submit" name="text" value="submit">
+    </form>
+    <br><br>
+    9) Чек-бокс:
+    <br><input type="checkbox" id="ban"><label for="ban">Банан</label>
+    <br><input type="checkbox" id="ora"><label for="ora">Апельсин</label>
+    <br><input type="checkbox" id="lem"><label for="lem">Лемон</label>
+    <br><br>
+    10) Радио-бокс:
+    <br><input type="radio" name="male" id="men"><label for="men">Мужской</label>
+    <br><input type="radio" name="male" id="wom"><label for="wom">Женский</label>
+    <br><br>
+    11) Выбор цвета: <input type="color">
+    <br><br>
+    12) Выбор Даты: <input type="date">
+    <br><br>
+    13) Выбор времени: <input type="time">
+    <br><br>
+    14) Выбор Даты и времени: <input type="datetime-local">
+    <br><br>
+    15) Выбор месяца: <input type="month">
+    <br><br>
+    16) Выбор недели: <input type="week">
+    <br><br>
+    17) Числа в указанном диапозоне: 
+    <input type="range" min: 0; max="100" value="20">
+    <br><br>
+
+    <h2> Ключевые атрибуты input: </h2>
+    1) Надпись подсказка: <input type="text" placeholder="Впишите Текст">
+    <br><br>
+    2) Блокировка ввода: <input type="button" disabled value="Click">
+    <br><br>
+    3) Только чтение: <input type="text" readonly="readonly" value="Не удалишь=)">
+    <br><br>
+    4) Шаг изменения числа:
+    <br><input type="number" step="5">
+    <br><input type="range" step="20" min="0" max="100">
+
+    <h2>Прочие элементы форм:</h2>
+    1) Кнопка: <button name="Click">go</button>
+    <br><br>
+    2) Раскрывающие пункты:
+    <select>
+        <option>Пункт 1</option>
+        <option>Пункт 2</option>
+        <option>Пункт 3</option>
+        <option>Пункт 4</option>
+        <option>Пункт 5</option>
+    </select>
+    <br><br>
+    3) Поле текста:
+    <textarea>
+Пример текста
+    </textarea> 
+    <br><br>
+
+    4) Группировка форм:
+    <fieldset style="width: 400px;"> 
+    <legend> Взаимодействие с полями </legend>
+    <br>
+    8) Очистка:
+    <form action="2.html" method="get">
+        <input type="text" name="text">
+        <input type="reset" value="submit">
+    </form>
+    9) отправка:
+    <form action="2.html" method="get">
+        <input type="text" name="test">
+        <input type="submit" name="submit">
+    </form>
+    <br>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#girl{
+    position: absolute;
+    right: 10vw;
+    z-index: 3;
+}
+#circle_orange{
+    position: absolute;
+    width: 30vw;
+    right: 19vw;
+    z-index: 2;
+}
+#circle_purple{
+    position: absolute;
+    width: 30vw;
+    right: 8vw;
+    z-index: 1;
+}
+#bel{
+    position: absolute;
+    width: 10vw;
+    right: 100px;
+    z-index: 4;
+}

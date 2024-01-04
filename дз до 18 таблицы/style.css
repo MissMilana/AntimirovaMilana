@@ -1,0 +1,33 @@
+table {
+    border: 1px solid grey;
+}
+
+.glavnaya {
+    background-color: rgb(235, 194, 139);
+}
+
+th {
+    border: 1px solid grey;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+table {
+    width: 100%;
+}
+
+table {
+    width: 800px;
+    height: 150px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+tr {
+    border-bottom-style: dashed;
+}

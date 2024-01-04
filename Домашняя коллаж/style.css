@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.main {
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+.class1 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    margin: -50px 0px 0px -250px;
+    z-index: 1;
+}
+
+.class2 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.class3 {
+    width: 100px;
+    height: auto;
+    position: sticky;
+    left: 60px;
+    top: 30px;
+    z-index: 3;
+}
+
+.class4 {
+    width: 100px;
+    height: auto;
+}
+
+.class5 {
+    width: 100px;
+    height: auto;
+}
+
+.class6 {
+    width: 100px;
+    height: auto;
+}
