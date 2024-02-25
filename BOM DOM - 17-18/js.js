@@ -1,0 +1,43 @@
+// Задание1
+// const inputBirth = document.getElementById("Birth");
+// const btnBirth = document.getElementById("btn");
+// const resultBirth = document.getElementById("result");
+
+// function calculateAge() {
+//     const CurrentDate = new Date()
+//     const b = new Date(inputBirth.value)
+//     const result = Math.floor((CurrentDate - b) / (24 * 3600 * 365.25 * 1000))
+//     resultBirthday.textContent = `your age in - ${result}`
+// }
+
+// btnBirthday.addEventListener("click", calculateAge);
+
+// Задание2
+// const inputMathOne = document.getElementById("input1");
+// const inputMathTwo = document.getElementById("input2");
+// const btnMath = document.getElementById("btn");
+// const resultMath = document.getElementById("result");
+
+// function mathCalculator() {
+//   const resultTwo = inputMathOne.value / inputMathTwo.value;
+//   const resultOne = resultTwo.toFixed(2);
+//   resultMath.textContent = `result = ${resultOne}`;
+// }
+
+// btnMath.addEventListener("click", mathCalculator);
+
+// Задание3
+// const colors = ['Желтый', 'Красный', 'Фиолетовый', 'Синий', 'Зеленый']
+// const btnColor = document.getElementById("btn");
+// const resultColor = document.getElementById("result");
+
+
+// function randomColors() {
+//     const randomColor = Math.floor(Math.random() * colors.length)
+//     const randomIndex = colors[randomColor]
+//     resultColor.textContent = `Цвет ${randomIndex}`
+// }
+
+// btnColor.addEventListener('click', randomColors)
+
+
